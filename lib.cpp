@@ -1,4 +1,6 @@
+#include <iostream>
 #include "lib.h"
+using namespace std;
 int nomi(char a[][20], char b[1][20]) {
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 20; j++) {
@@ -10,8 +12,7 @@ int nomi(char a[][20], char b[1][20]) {
                 return i;
             }
         }
-    if (i == 9) {
-        return -1;
-    }
+        cout<<"non trovato";
+    
 }
 }
