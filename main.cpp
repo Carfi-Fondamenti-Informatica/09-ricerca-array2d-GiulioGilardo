@@ -15,10 +15,7 @@ for(int i=0; i<10; i++) {
             b[0][j] = ' ';
 }
     cin>>b[0];
-if(nomi(a,b)==-1){
-    cout<<"non presente";
-}else{
     cout<<nomi(a,b);
-}
     return 0;
 }
+
